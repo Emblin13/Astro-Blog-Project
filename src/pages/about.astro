@@ -1,5 +1,6 @@
 ---
-const pageTitle = 'About Me :)';
+import Navigation from '../components/Navigation.astro';
+const topic = 'About';
 ---
 
 <html lang="en">
@@ -8,27 +9,19 @@ const pageTitle = 'About Me :)';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
+		<title>{topic}</title>
 
-        <style>
-            h1 {
-                color: red;
-                text-transform: uppercase;
+		<style>
+            body {
+                background: slateblue;
             }
         </style>
 
 	</head>
 	<body>
 
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about/">About</a>
-            <a href="/blog/">Blog</a>
-        </nav>
+		<Navigation />
 
-		<h1>{pageTitle}</h1>
-
-
-
+		<h1>{topic}</h1>
 	</body>
 </html>

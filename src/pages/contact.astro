@@ -1,6 +1,6 @@
 ---
 import Navigation from '../components/Navigation.astro';
-const topic = 'Blog';
+const topic = 'Contact';
 ---
 
 <html lang="en">
@@ -10,14 +10,14 @@ const topic = 'Blog';
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{topic}</title>
+
+		<style>
+            body {
+                background: slateblue;
+            }
+        </style>
+
 	</head>
-
-    <style>
-        body {
-            background: slateblue;
-        }
-    </style>
-
 	<body>
 
 		<Navigation />
