@@ -14,20 +14,8 @@ Published on: 11/08/2023
 
 RNG, short for "random number generation", is a much maligned feature in the topic of video games. It is often invoked like some sort of chaotic god ruling over the game, randomly deciding who will win, and who won't make it past the first level. 
 
-![Angry gamer](/workspaces/astro-part-2-pages/public/man-screaming-at-sky.jpg)
+![Angry gamer](/workspaces/astro-part-2-pages/public/man-screaming-at-sky.jpg "Angry guy")
 
 <img src="/workspaces/astro-part-2-pages/public/man-screaming-at-sky.jpg" alt="Angry gamer" style="height: 100px; width:100px;"/>
 
 In this context, _RNG_ can be thought of as game mechanics involving random chance. This can take many forms, such as generating loot from a loot table, or rolling the dice to pass an ability check. 
-
-## What I've accomplished
-
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
-
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
-
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
-
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
