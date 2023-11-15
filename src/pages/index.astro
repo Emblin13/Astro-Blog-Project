@@ -1,6 +1,9 @@
 ---
 import Header from '../components/Header.astro';
 const topic = 'Index';
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Homepage";
 ---
 
 <html lang="en">
@@ -24,5 +27,22 @@ const topic = 'Index';
 		<Header />
 
 		<h1>{topic}</h1>
+
+		<BaseLayout pageTitle={pageTitle}>
+
+			<h2>Homepage</h2>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita laudantium veniam dolorem consectetur sint quibusdam esse corrupti eligendi ipsum iste harum perferendis ducimus consequuntur, modi, voluptates neque. Sequi, exercitationem dolor.</p>
+		  
+		</BaseLayout>
+
+
+
+
+
+
+
+
+
+
 	</body>
 </html>
